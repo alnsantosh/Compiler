@@ -1,0 +1,14 @@
+Why do we need to generate Abstract Syntax Tree when we can acheive the goal with the parse tree?
+
+Mastery
+
+Compiler has to traverse through the nodes of the tree for the determination of semantic correctness. So it is important to use an tree which will make the traversal less complicated.  The size of the AST will be less compared to the parse tree which will ease the computation.Unlike AST,A parse tree consist of concrete data which makes the computation complex.
+
+Acceptable Understanding
+AST makes the node traversal easy as the size of AST is less.Hence it is used over Parse tree. 
+(Student understands the concepts but still need to have a clear cut idea)
+
+Insufficient Understanding
+AST makes the node traversal easy.
+(If student does not have the enough understanding of the abstract syntax tree, then the very purpose of assignment is failed)
+
