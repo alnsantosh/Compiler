@@ -16,7 +16,7 @@ def process(node):  #This is a recursive function to parse through the nodes of 
         return operators_dictionary[type(node.op)](process(node.operand))
 
 
-f=open('sys.argv[1]','r') #reading file
+f=open(sys.argv[1],'r') #reading file
 stringg=f.read()
 file=stringg.split('\n')  #Since the interpreter excutes one statement at a time, file list consist of all the statements which will be parsed in a sequential manner
 # print file
